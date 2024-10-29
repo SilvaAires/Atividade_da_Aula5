@@ -43,8 +43,6 @@ document.addEventListener("DOMContentLoaded", function() {
         toggleProjectsButton.textContent = isHidden ? "Ocultar Projetos" : "Ver Projetos Recentes";
     });
 });
-<<<<<<< HEAD
-=======
 
 // Aguarda o carregamento completo da página antes de executar o código
 document.addEventListener("DOMContentLoaded", function() {
@@ -70,4 +68,3 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
->>>>>>> Thiago
