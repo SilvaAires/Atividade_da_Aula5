@@ -5,3 +5,8 @@ $ git add .
 $ git commit "index e comandos criados"
 $ git remote add origin https://github.com/SilvaAires/Atividade_da_Aula5.gitandos criados"
 $ git push origin master
+
+Clone
+$ git clone https://github.com/SilvaAires/Atividade_da_Aula5
+$ git branch css
+$ git branch js
