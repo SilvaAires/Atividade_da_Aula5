@@ -10,3 +10,6 @@ Clone
 $ git clone https://github.com/SilvaAires/Atividade_da_Aula5
 $ git branch css
 $ git branch js
+$ git push origin master
+$ git push origin css
+$ git push origin js
