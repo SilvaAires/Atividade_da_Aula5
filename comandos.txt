@@ -26,3 +26,8 @@ $ git branch js
 $ git push origin master
 $ git push origin css
 $ git push origin js
+
+$ git checkout js
+$ git add .
+$ git commit -am "Script criado"
+
