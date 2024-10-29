@@ -26,3 +26,20 @@ document.addEventListener("DOMContentLoaded", function() {
         content.style.display = "none";
     });
 });
+
+// Aguarda o carregamento completo da página antes de executar o código
+document.addEventListener("DOMContentLoaded", function() {
+    // Seleciona o botão de alternância de projetos e a lista de projetos
+    const toggleProjectsButton = document.querySelector(".toggle-projects");
+    const projectsList = document.querySelector(".projects-list");
+
+    // Define evento de clique para mostrar/ocultar a lista de projetos
+    toggleProjectsButton.addEventListener("click", function() {
+        // Alterna a exibição da lista de projetos
+        const isHidden = projectsList.style.display === "none" || projectsList.style.display === "";
+        projectsList.style.display = isHidden ? "block" : "none";
+        
+        // Atualiza o texto do botão com base no estado de exibição
+        toggleProjectsButton.textContent = isHidden ? "Ocultar Projetos" : "Ver Projetos Recentes";
+    });
+});
