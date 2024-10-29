@@ -19,6 +19,10 @@ $ git checkout master
 $ git merge css -m "mesclando com css"
 $ git commit -am "Resolvendo merge"
 
+$ git pull origin master
+$ git commit -am "Resolvendo merge do clone"
+$ git push origin master
+
 Clone
 $ git clone https://github.com/SilvaAires/Atividade_da_Aula5
 $ git branch css
