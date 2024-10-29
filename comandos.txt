@@ -1,4 +1,7 @@
-$git init
-$git status
-$git add . 
-$git commit "index e comandos criados"
+Origem
+$ git init
+$ git status
+$ git add . 
+$ git commit "index e comandos criados"
+$ git remote add origin https://github.com/SilvaAires/Atividade_da_Aula5.gitandos criados"
+$ git push origin master
